@@ -5,6 +5,9 @@ import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [vue()],
+	build: {
+		outDir: 'docs'
+	},
 	// 本地反向代理解决浏览器跨域限制
 	server: {
 		host: '0.0.0.0',

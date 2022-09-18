@@ -57,7 +57,6 @@ function action (){
       if(response.data.err_code == 0) {
         state.successCount++;
       } else {
-        console.log(`服务器错误`);
         ElMessage.error('服务器错误！');
       }
     }).catch(() => {

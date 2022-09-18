@@ -13,5 +13,28 @@
 
 ### ios教程
 
-[Stream抓包教程](https://www.baidu.com)
+[Stream抓包教程](https://blog.csdn.net/nanhai8719/article/details/124134529)
+
+## 启动部署
+
+### 环境准备
+
+- 安装 Node
+
+  版本：v16
+
+- 开发工具
+
+  推荐 VSCode
+
+### 项目启动
+
+1. npm install
+2. npm run dev
+3. 浏览器访问 http://localhost:6600/sheep-game/
+
+## 开始通关
+在前面两步完成之后，会获取到t值以及页面在本地正常运行。把获取到的t值，输入到token的输入框里面，再输入好你想要执行的次数，即可点击执行按钮。提示成功后，代表已经闯关成功啦！
+<img src="https://linbrick.github.io/sheep-game/images/demo.png"/>
+
 
